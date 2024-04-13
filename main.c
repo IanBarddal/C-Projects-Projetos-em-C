@@ -1,27 +1,24 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main ()
 {
-    int n,x;
-    int casaMultada = 0;
-    float valorMulta = 0;
+    setlocale (LC_ALL, "portuguese");
 
-    while (n != 999)
-    {
-        scanf ("%d", &n);
+    float fatura;
+    float faturaMarco;
+    float faturaAbril;
+    float juros;
 
-        if (n > 2 && n != 999)
-        {
-            casaMultada++;
-            for (x = 2; x < n; x++)
-            {
-                valorMulta+=12.89;
-            }
+    printf ("Digite o valor da sua fatura:\n");
+    scanf ("%f", &fatura);
 
-        }
-    }
+    faturaMarco = fatura * 0.50;
+    juros = 0.065 * faturaMarco;
+    faturaAbril = faturaMarco + juros;
 
-    printf ("%.2f reais arrecadados em multa; %d casas multadas.\n", valorMulta, casaMultada);
+    printf ("Você pagará em março R$ %.2f.\n", faturaMarco);
+    printf ("Você pagará em abril R$ %.2f.\n", faturaAbril);
 
     return (0);
 }
