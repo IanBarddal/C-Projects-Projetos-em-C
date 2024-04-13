@@ -1,31 +1,27 @@
 #include <stdio.h>
-#include <locale.h>
-
-float conversor (float t_C);
 
 int main ()
 {
-    setlocale (LC_ALL, "portuguese");
+    int n,x;
+    int casaMultada = 0;
+    float valorMulta = 0;
 
-    float t_C;
-    printf ("Digite a temperatura em graus Celsius: ");
-    scanf ("%f", &t_C);
+    while (n != 999)
+    {
+        scanf ("%d", &n);
 
-    conversor (t_C);
+        if (n > 2 && n != 999)
+        {
+            casaMultada++;
+            for (x = 2; x < n; x++)
+            {
+                valorMulta+=12.89;
+            }
 
-    // a função "conversor" está EM FUNÇÃO de t_C, ou seja, do valor da temperatura em Celsius digitado pelo usuário.
+        }
+    }
 
-    printf ("%1.0f graus em Celsius corresponde a %1.1f Fahrenheit!", t_C, conversor (t_C));
-
-    // a função conversor RETORNA o valor da conversão, então, %1.1f corresponde ao valor retornado por "conversor (t_C)", como especificado acima.
+    printf ("%.2f reais arrecadados em multa; %d casas multadas.\n", valorMulta, casaMultada);
 
     return (0);
-}
-
-float conversor (float t_C)
-{
-    float x;
-
-    x = (t_C *9/5) + 32;
-    return (x);
 }
