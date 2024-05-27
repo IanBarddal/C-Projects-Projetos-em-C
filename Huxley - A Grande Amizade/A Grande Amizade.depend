@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1715965267 source:c:\users\iangi\desktop\ian\programação\the huxley\a grande amizade\main.c
+	<stdio.h>
+	<locale.h>
+
