@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1713491273 source:c:\users\iangi\desktop\ian\programação\the huxley\reduz\main.c
+	<stdio.h>
+	<locale.h>
+
