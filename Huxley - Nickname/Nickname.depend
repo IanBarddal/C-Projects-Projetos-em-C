@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1714873134 source:c:\users\iangi\desktop\ian\programação\the huxley\nickname\main.c
+	<stdio.h>
+	<locale.h>
+	<string.h>
+
