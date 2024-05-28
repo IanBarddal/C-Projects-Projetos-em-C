@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1716409707 source:c:\users\iangi\desktop\ian\programação\neps academy\zip\main.c
+	<stdio.h>
+	<locale.h>
+
