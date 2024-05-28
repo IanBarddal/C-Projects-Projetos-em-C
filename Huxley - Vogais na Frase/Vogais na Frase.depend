@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1715908753 source:c:\users\iangi\desktop\ian\programação\the huxley\vogais na frase\main.c
+	<stdio.h>
+	<locale.h>
+	<string.h>
+
+1715909112 source:c:\users\iangi\desktop\ian\programação\the huxley\problemas resolvidos\vogais na frase\main.c
+	<stdio.h>
+	<locale.h>
+	<string.h>
+
