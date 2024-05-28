@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1715097854 source:c:\users\iangi\desktop\ian\programação\the huxley\sequência lógica i\main.c
+	<stdio.h>
+	<locale.h>
+	<math.h>
+
