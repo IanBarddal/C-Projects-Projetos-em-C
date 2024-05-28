@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning C and Python
 - 💞️ I’m looking to collaborate on small and medium projects
 - 📫 How to reach me: Instagram: @ianbarddal
-- ⚡ Fun fact: I love to play video games, to surfing and to skateboarding.
+- ⚡ Fun fact: I love to play video games, to surf and to skateboard.
 
 <!---
 IanBarddal/IanBarddal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
